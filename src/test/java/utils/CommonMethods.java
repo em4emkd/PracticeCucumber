@@ -6,10 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import steps.PageInitializer;
 
 import java.util.concurrent.TimeUnit;
 
-public class CommonMethods {
+public class CommonMethods extends PageInitializer {
 
   public static WebDriver driver;
 

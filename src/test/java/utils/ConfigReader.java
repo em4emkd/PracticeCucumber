@@ -10,7 +10,7 @@ public class ConfigReader {
     static Properties prop;
 
     //this method will read any property file
-    public static Properties readProperties(String filePath){
+    public static Properties readProperties(String filePath){ //String filePath parameter is the path of the file we need to read
         try {
             FileInputStream fis = new FileInputStream(filePath);
             prop = new Properties();
